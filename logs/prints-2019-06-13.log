@@ -1,9 +1,6 @@
-2019-06-13 12:21:11,822  a.Demo message 0
-2019-06-13 12:21:11,823  a.Demo message 11
-14:29:14.071 [main] DEBUG alpha.act - Setting chrome driver property
-14:29:19.401 [main] INFO  alpha.act - Window Maximized
-14:29:19.401 [main] DEBUG alpha.act - Now hitting Goibibo server
-14:29:40.222 [main] INFO  alpha.act - Landed on Goibibo home page
-14:29:42.556 [main] INFO  alpha.act - Successfully Selected From place
-14:29:44.908 [main] INFO  alpha.act - Successfully Selected To place
-14:29:45.787 [main] INFO  alpha.act - Successfully Selected Month
+2019-06-13 15:36:03,242 [alpha.Testcase.selectdate] - Successfully Selected Day place
+2019-06-13 15:36:03,964 [alpha.Testcase.Quitbowser] - Successfully Quit the browser
+2019-06-13 15:36:45,693 [alpha.Testcase.launchDriver] - Setting chrome driver property
+2019-06-13 15:36:51,122 [alpha.Testcase.launchDriver] - Window Maximized
+2019-06-13 15:36:51,122 [alpha.Testcase.launchDriver] - Now hitting Goibibo server
+2019-06-13 15:36:57,982 [alpha.Testcase.launchDriver] - Landed on Goibibo home page

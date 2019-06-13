@@ -1,2 +1,5 @@
-14:29:46.635 [main] INFO  alpha.act - Successfully Selected Day place
-14:29:47.457 [main] INFO  alpha.act - Successfully Quit the browser
+2019-06-13 15:37:02,396 [alpha.Testcase.selectFromplace] - Successfully Selected From place
+2019-06-13 15:37:04,768 [alpha.Testcase.selectToplace] - Successfully Selected To place
+2019-06-13 15:37:06,206 [alpha.Testcase.selectdate] - Successfully Selected Month
+2019-06-13 15:37:08,048 [alpha.Testcase.selectdate] - Successfully Selected Day place
+2019-06-13 15:37:08,883 [alpha.Testcase.Quitbowser] - Successfully Quit the browser

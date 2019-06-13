@@ -28,12 +28,12 @@ public class Testcase {
 	
 	public void launchDriver()
 	{
-		   log.debug("Setting chrome driver property");
+		   log.info("Setting chrome driver property");
 		System.setProperty("webdriver.chrome.driver", "F://Web Drivers/chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		   log.info("Window Maximized");
-		   log.debug("Now hitting Goibibo server");
+		   log.info("Now hitting Goibibo server");
 		driver.get("https://www.goibibo.com/");
 		 log.info("Landed on Goibibo home page");
 	}
@@ -66,7 +66,7 @@ public class Testcase {
 	
 	public void selectdate()
 	{
-
+String a="hello";
 
 		//select month 
 
@@ -75,7 +75,7 @@ public class Testcase {
 		{
 			driver.findElement(By.xpath("//span[@class='DayPicker-NavButton DayPicker-NavButton--next']")).click();
 		}
-		log.info("Successfully Selected Month");
+		log.info("Successfully Selected Month"+a);
 		//select date
 		//driver.findElement(By.id("fare_20191205")).click();
 			
