@@ -1,11 +1,10 @@
-package beta;
-
+package Testcases;
 
 import org.apache.logging.log4j.*;
-public class Demo1 {
 
-	
-	private static Logger log=LogManager.getLogger(Demo1.class.getName());
+public class demo {
+
+	private static Logger log=LogManager.getLogger(Loginapplication.class.getName());
 	public static void main(String[] args) {
 		// 6/12/2019
 
