@@ -10,7 +10,7 @@ import alpha.RediffHomePage;
 import alpha.RediffLoginPage;
 public class Loginapplication {
 
-	//14/6/2019
+	//14/6/2019,17/6/2019
 	@Test
 	public void Login() throws InterruptedException
 	{
@@ -22,10 +22,11 @@ public class Loginapplication {
 		rd.Password().sendKeys("Mounisha2128");
 		Thread.sleep(2000);
 		//rd.submit().click();
-//		rd.Home().click();
-//		RediffHomePage rh=new RediffHomePage(driver);
+		rd.Home().click();
+		RediffHomePage rh=new RediffHomePage(driver);
 //		rh.Search().sendKeys("gjghd");
 //		rh.submit().click();
+rh.Books().click();		
 	}
 	
 
